@@ -4,19 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <h3>Elements</h3>
+        <ul>
+          <li>The 'HEAD' contains informtion about the webpage.</li>
+          <li>The 'BODY' represents the visible content shown to the user</li>
+          <li>The 'STYLE' defines the CSS styles associated with a website</li>
+          <li>The 'BASE' defines the base url for a webpage</li>
+          <li>The 'TITLE' defines the title of the webpage</li>
+          <li>'LINK' connects an external resource to the HTML document.</li>
+          <li>'META' defines metadata such as: character set, description, keywords, author, and viewport</li>
+          <li>'SCRIPT' embeds client-side scripts in the HTML docoment</li>
+          <li>'DIV' creates a division in the page</li>
+          <li>'SPAN' creates in-line division</li>
+          <li>Header elements: 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', go from large titles, to small subtitles. H1 should typically only be used once in a document.</li>
+          <li>'UL' creates Unordered Lists</li>
+          <li>'OL' creates Ordered Lists</li>
+          <li>'IMG' contains info about images and can contain various attributes</li>
+          <li>'BR' creates a line break (empty space) between two blocks of content</li>
+          <li>'A' is an anchor element</li>
+          <li></li>
+        </ul>
+        <h3>Attributes</h3>
+        <ul>
+          <li>'SRC' defines the location of an image</li>
+          <li>'ID' identifies elements and selects them</li>
+        </ul>
+      </section>
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Inline CSS: Used when a developer wants to style an element directly in the HTML file. This is useful for quick changes, but it is less flexible than external and internal styles.</li>
+          <li>External CSS: The most common way to stylesheet. When using an external stylesheet, we link the file using a LINK element placed in the HTML's HEAD.</li>
+          <li>Separation of concerns: widly used term in web development and refers to separating code into different files based on use.</li>
+          <li>Declarations: Contains two important components: CSS property and value of property.</li>
+          <li>Margin: Indicates how much space we want around the outside of the element. The margin is not visible and only adds a buffer.</li>
+          <li>Padding: Adds space around content issue inside an element. Increased padding = making the entrire element bigger.</li>  
+        </ul>
+      </section>
+      <section class="card" id="git-section">
+        <h2>GIT</h2>
+        <h3>GIT CHEATSHEET</h3>
+        <h4><u>Setup</u></h4>
+        <ul>
+          <li>git config --global user.name "[firstname lastname]": set a name that is identifiable for credit when review version history</li>
+          <li>git config --global user.email "[valid email]": set an email address that will be associated with each history marker</li>
+          <li>git config --global color.ui auto: set automatic command line coloring for GIT for easy reviewing</li>
+        </ul>
+        <H4><u>Stage & Snapshot</u></H4>
+        <ul>
+          <li>git status: show modified files in working directory, staged for your next commit</li>
+          <li>git add [file]: add a file as it looks not to your next commit (stage)</li>
+          <li>git reset [file]: unstage a file while retaining the changes in working directory</li>
+          <li>git diff: diff of what is changed but not staged</li>
+          <li>git diff --staged: diff of what is staged but not yet committed</li>
+          <li>git commit -m "[descriptive message]": commit your staged content as a new commit snapshot</li>
+
+        </ul>
+      </section>
+      <section class="card" id="javascript-section">
+        <h2>JAVASCRIPT</h2>
+        <ul>
+          <li>Variable: A container that allows us to store data in the code. This is notated with the keyword VAR.</li>
+          <li>Control Flow: The order in which a computer executes code in a script. JavaScript runs from top to bottom.</li>
+          <li>Falsy: A value that is 0, -0, On, "", Null, undefined, NaN, or False.</li>
+          <li>Truthy: All other values, including True.</li>
+          <li>Array: A single variable that is used to hold a group of data. Typically used to hld data that is related in some way.</li>
+          <li>Function: Set of instructions that tells the computer how to perform a certain task.</li>
+          <li>Chrome DevTools allows developers to debug and test the code that is written.</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
